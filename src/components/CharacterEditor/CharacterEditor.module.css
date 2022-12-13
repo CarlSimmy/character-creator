@@ -3,7 +3,9 @@
   padding-bottom: 64px;
 }
 
-.maxWidthWrapper {}
+.maxWidthWrapper {
+  position: relative;
+}
 
 .header {
   padding-bottom: 64px;
@@ -34,7 +36,6 @@
 
 .controlColumn {
   width: 50%;
-  isolation: isolate;
 }
 
 .perspective {
