@@ -3,11 +3,12 @@
   padding-bottom: 64px;
 }
 
-.maxWidthWrapper {
-}
+.maxWidthWrapper {}
 
 .header {
   padding-bottom: 64px;
+
+  width: 65%;
 }
 
 .title {
@@ -24,7 +25,23 @@
 }
 
 .characterWrapper {
+  position: absolute;
+  height: 1304px;
+  width: 35%;
+  top: 0;
+  left: 60%;
 }
 
 .controlColumn {
+  width: 50%;
+  isolation: isolate;
+}
+
+.perspective {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  background: hsl(195deg, 20%, 86%);
 }
